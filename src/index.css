@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-alignment {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+p{
+  padding-top: 10px;
+  margin-left: 100px;
+}
+span {
+  padding-top: 10px;
+}
+.primary {
+  margin-left: 5px;
+  color: white;
+  background-color: black;
+}
+.navBar-alignment {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+nav a {
+  margin-right: 50px;
+}
+nav a:link {
+  color: black;
+  text-decoration: none;
+}
+.letterSpacing {
+  letter-spacing: 10px;
+}
+Button{
+  padding: 2px 5px;
+}
+
+#fontSize {
+  font-size: 12px;
+}
+ul>li{
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+b{
+  font-size: 10px;
+  text-align: center;
+}
+span{
+  font-size: 15px;
+}
+footer{
+  text-align: center;
+  color: grey;
+}
+.paddingBtm > li{
+  padding-bottom: 15px;
+}
+.alignImage{
+  width: 200px;
+}
+p{
+  font-size: 12px;
+  margin-left: 20px;
+}
+h6 {
+  font-weight: bold;
+}
+#dot {
+  color : red;
+}
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#border {
+  background-color: rgba(240, 243, 245, 0.908);
+
+}
+
